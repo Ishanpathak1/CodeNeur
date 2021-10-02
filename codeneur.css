@@ -1,0 +1,112 @@
+html{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+body {
+    color:aliceblue;
+    margin:0;
+    padding:0;
+    perspective:1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+
+
+}
+.header {  
+    margin:0;
+    padding:0px;
+    border-width:0px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    top: 0;
+    font-family: 'Cinzel', serif; 
+    color: #F5CBA7; 
+    text-align: center; 
+    background-color: #815EA0  ;   
+}
+
+
+
+.navbar{   
+    overflow: none;
+    background-color: #F5CBA7;
+    margin-top: 88px;
+    z-index: 1;
+}
+.navbar a {
+    
+    float: right;
+    color: #815EA0;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.25s;
+}
+.navbar a.active {
+    background-color:#815EA0;
+    color:#F5CBA7 ;
+    border-radius: 0.7em;
+ } 
+.navbar a:hover{
+    border-color: #7f6694;
+    color:rgba(65, 0, 102, 0.781);
+    box-shadow:0 0.5em 0.5em -0.4em #7f6694;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+
+
+}
+  
+.rightside {
+    float:right;
+}
+.name {      
+       float: left;
+       font-size: 40px;
+       font-family: 'Gemunu Libre', sans-serif;  
+       padding-left:10px;  
+   }
+.quote1{
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding:30vw 0 5vw;
+    position: relative;
+    transform-style:inherit;
+    width:100vw;
+}
+.quote1 h3 {
+    margin-top: -100px;
+}
+.quote1,.quote1:before {
+    background:50% 50%;
+}
+.quote1::before {
+    bottom:0;
+    content:"";
+    left:0;
+    position:absolute;
+    right:0;
+    top:0;
+    display:block;
+    background-size: cover;
+    background-image: url(parallacxi1.jpg); /* unsplash */
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index:-1;
+    min-height:100vh;
+}
+.quote1 * {
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #663c41;    ;
+}

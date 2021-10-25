@@ -6,90 +6,46 @@ html{
     overflow: hidden;
 }
 body {
-    color:aliceblue;
     margin:0;
     padding:0;
     perspective:1px;
     transform-style: preserve-3d;
     height: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    
-
-
-}
-.header {  
-    margin:0;
-    padding:0px;
-    border-width:0px;
     width: 100%;
-    top: 0;
-    position: absolute;
-    top: 0;
-    font-family: 'Cinzel', serif; 
-    color: #F5CBA7; 
-    text-align: center; 
-    background-color: #815EA0  ;   
-}
-
-
-
-.navbar{   
-    overflow: none;
-    background-color: #F5CBA7;
-    margin-top: 88px;
-    z-index: 1;
-}
-.navbar a {
-    
-    float: right;
-    color: #815EA0;
-    text-align: center;
-    padding: 18px 20px;
-    text-decoration: none;
-    font-size: 24px;
-    transition: all 0.25s;
-}
-.navbar a.active {
-    background-color:#815EA0;
-    color:#F5CBA7 ;
-    border-radius: 0.7em;
- } 
-.navbar a:hover{
-    border-color: #7f6694;
-    color:rgba(65, 0, 102, 0.781);
-    box-shadow:0 0.5em 0.5em -0.4em #7f6694;
-    transform: translateY(-0.25em);
-    cursor: pointer;
-
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #ffe9d0;
+    background-size: 100% 33.33% ;
 
 }
-  
-.rightside {
-    float:right;
+#backgroundimg{  
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 33.33%;
+    /* box-shadow: inset 0px 0px 20px -4px #FFE9D0 ;  */
+    position: fixed;
+    background-image: url(image/bgimg.jpg);
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
 }
-.name {      
-       float: left;
-       font-size: 40px;
-       font-family: 'Gemunu Libre', sans-serif;  
-       padding-left:10px;  
-   }
-.quote1 {
-    width:100%;
-    height:600px;
-    background-image: url(parallacxi1.jpg);
-    background-size:100% 100%;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
+#backgroundcolor{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    top: 66.67%;
+    bottom: 0px;
+    height: 33.33%;
+    background-color: #414141;
+    /* box-shadow: inset 0px 0px 20px -4px #FFE9D0 ;  */
 }
-.quote h3,h4 {
-    position:relative;
-    font-family: 'Fjalla One', sans-serif;
-   
-    
-    
+#box{
+
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    margin: 10%  10% 10%;
+    background: lightgrey;
+
 }

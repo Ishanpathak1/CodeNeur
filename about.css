@@ -1,0 +1,75 @@
+html{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+/* body {
+    margin:0;
+    padding:0;
+    perspective:1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #ffe9d0;
+    background-size: 100% 33.33% ;
+
+} */
+#backgroundimg{  
+    margin:0;
+    position: absolute;
+    padding:0;
+    width: 100%;
+    height: 351px;
+    left:0px;
+    top:0px;
+    /* box-shadow: inset 0px 0px 20px -4px #FFE9D0 ;  */
+    
+    background-image: url(woodback.jpg);
+    background-size: cover;
+    
+}
+#backgroundcolor{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    top: 66.67%;
+    left:0px;
+    bottom: 0px;
+    height: 33.30%;
+    background-color: #414141;
+    /* box-shadow: inset 0px 0px 20px -4px #FFE9D0 ;  */
+}
+#left_behind {
+    position: absolute;
+    width: 190px;
+    height: 340px;
+    left: 0px;
+    top: 351px;
+    background: #ffe9d0;
+}
+#right_behind {
+
+    position: absolute;
+    width: 165px;
+    height: 340px;
+    left: 1640px;
+    top: 351px;
+    background: #FFE9D0;
+}
+#box{
+    position: absolute;
+    width: 1450px;
+    height: 216px;
+    left: 190px;
+    right:0px;
+    top: 135px;
+    background-image: url(woodback.jpg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 18px 18px 0px 0px;
+    background-size: cover;
+}
